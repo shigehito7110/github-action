@@ -13,3 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: git branch
+    - run: cat hello.txt
