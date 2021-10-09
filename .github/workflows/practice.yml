@@ -12,5 +12,8 @@ jobs:
       ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: git branch
-    - run: cat hello.txt
+
+
+  - name: runner os
+    run: echo ${{ runner.os }}
+    
