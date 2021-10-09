@@ -6,14 +6,11 @@ on:
       - main
 
 jobs:
-  build:
-    name: tra
+  practice:
     runs-on:
       ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
-
-  - name: runner os
-    run: echo ${{ runner.os }}
-    
+    - name: runner os
+      run: echo ${{ runner.os }}
