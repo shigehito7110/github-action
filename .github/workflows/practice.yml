@@ -6,6 +6,8 @@ on:
       - main
 
 jobs:
+  build:
+  name: tra
   runs_on:
     ubuntu-latest
   steps:
